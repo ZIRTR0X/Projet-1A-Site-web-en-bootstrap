@@ -1,0 +1,59 @@
+/*header*/
+nav {
+	background-color: #171717;
+	font-family: "Roboto", sans-serif;
+}
+.navbar-brand {
+	border: 2px solid white;
+}
+
+.navbar-nav li .active {
+	border-bottom: 3px solid orange;
+	color: white;
+}
+
+.navbar-brand img {
+	
+}
+
+.bg-dark h3 {
+	text-shadow: white 1px 1px 0px;
+	color: black;
+}
+
+.background {
+	background-color: black;
+	border: 2px white;
+}
+
+body {
+	background-color: #171717;
+}
+#contact {
+	border: none;
+	color: white;
+}
+
+.card {
+	background-color: #171717;
+	color:	white;
+	border: none;
+}
+
+.jum {
+	padding: 20%;
+	background-image: url("../image/877470.png");
+	background-size: cover;
+	background-position: right;
+	background-repeat: no-repeat;
+	color: white;
+	margin-top: 10%;
+
+}
+
+
+@media all and (max-width: 1600px) {
+	.jum{
+		background-position-x: 50%;
+	}
+}
